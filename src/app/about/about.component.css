@@ -1,0 +1,17 @@
+.about-container {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #dc143c;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
