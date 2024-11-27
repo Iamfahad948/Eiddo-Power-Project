@@ -1,8 +1,4 @@
-.spacer {
-    flex: 1 1 auto;
-  }
-  
-  mat-toolbar {
-    background-color: #dc143c; /* Crimson color for the toolbar */
-  }
-  
+.page-content {
+  margin-left: 100px; /* Adjust the margin as needed */
+  margin-right: 100px; /* Adjust the margin as needed */
+}
