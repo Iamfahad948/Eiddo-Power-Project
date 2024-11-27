@@ -23,6 +23,7 @@
 }
 
 .hero-text {
+  margin-top: -100px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -46,7 +47,7 @@
   padding: 20px 20px 20px 20px; /* Adjust padding */
   background-color: #f4f4f4;
   text-align: center;
-  margin-top: -10px; /* Reduced negative margin */
+  margin-top: -260px; /* Reduced negative margin */
 }
 
 .intro-section p {
@@ -87,6 +88,8 @@
   color: white;
   padding: 20px;
   border-radius: 8px;
+  margin-top: 20px;  
+  margin-bottom: 20px;  
 }
 
 .cta-button {
