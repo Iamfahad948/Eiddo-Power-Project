@@ -1,52 +1,91 @@
+/* Overall container for the home page */
 .home-container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove padding */
+  height: 100%; /* Ensure it fills the whole page */
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
 }
 
+/* Hero Section */
 .hero-section {
+  position: relative; /* To position text on top of the image */
+  height: 100vh; /* Full viewport height */
+}
+
+.hero-image {
+  width: 100%; /* Make the image full width of the container */
+  height: 70%; /* Limit the image height to 70% */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
+  display: block; /* Remove any unwanted space below the image */
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
   text-align: center;
-  margin-bottom: 20px;
+  color: white;
+  z-index: 2; /* Ensure text is above the image */
 }
 
-.hero-section h1 {
-  color: #2c3e50;
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 10px; /* Reduced margin to reduce gap */
 }
 
-.tagline {
-  color: #34495e;
+.hero-text .tagline {
   font-size: 1.2rem;
 }
 
-.intro-section, .services-section, .call-to-action {
-  margin-bottom: 20px;
+/* Intro Section */
+.intro-section {
+  padding: 20px 20px 20px 20px; /* Adjust padding */
+  background-color: #f4f4f4;
+  text-align: center;
+  margin-top: -10px; /* Reduced negative margin */
+}
+
+.intro-section p {
+  margin: 10px 0; /* Reduced margin */
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Services Section */
+.services-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
 }
 
 .services-section h3 {
   color: #2c3e50;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .service-list {
   list-style-type: disc;
   margin-left: 20px;
+  text-align: left;
+  display: inline-block;
 }
 
 .service-list li {
   margin: 5px 0;
+  font-size: 1.1rem;
+  color: #555;
 }
 
+/* Call to Action Section */
 .call-to-action {
   text-align: center;
-  background-color: #eafaf1;
-  padding: 15px;
+  background-color: #27ae60;
+  color: white;
+  padding: 20px;
   border-radius: 8px;
 }
 
@@ -64,3 +103,4 @@
 .cta-button:hover {
   background-color: #2ecc71;
 }
+ 
