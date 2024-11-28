@@ -1,25 +1,25 @@
-/* Overall container for the home page */
+
 .home-container {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  margin: 0; /* Remove any default margin */
-  padding: 0; /* Remove padding */
-  height: 100%; /* Ensure it fills the whole page */
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
   display: flex;
-  flex-direction: column; /* Stack sections vertically */
+  flex-direction: column; 
 }
 
-/* Hero Section */
+
 .hero-section {
-  position: relative; /* To position text on top of the image */
-  height: 100vh; /* Full viewport height */
+  position: relative; 
+  height: 100vh; 
 }
 
 .hero-image {
-  width: 100%; /* Make the image full width of the container */
-  height: 70%; /* Limit the image height to 70% */
-  object-fit: cover; /* Ensure the image covers the container without distortion */
-  display: block; /* Remove any unwanted space below the image */
+  width: 100%; 
+  height: 70%; 
+  object-fit: cover; 
+  display: block; 
 }
 
 .hero-text {
@@ -27,36 +27,36 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center the text */
+  transform: translate(-50%, -50%); 
   text-align: center;
   color: white;
-  z-index: 2; /* Ensure text is above the image */
+  z-index: 2; 
 }
 
 .hero-text h1 {
   font-size: 3rem;
-  margin-bottom: 10px; /* Reduced margin to reduce gap */
+  margin-bottom: 10px; 
 }
 
 .hero-text .tagline {
   font-size: 1.2rem;
 }
 
-/* Intro Section */
+
 .intro-section {
-  padding: 20px 20px 20px 20px; /* Adjust padding */
+  padding: 20px 20px 20px 20px; 
   background-color: #f4f4f4;
   text-align: center;
-  margin-top: -260px; /* Reduced negative margin */
+  margin-top: -260px; 
 }
 
 .intro-section p {
-  margin: 10px 0; /* Reduced margin */
+  margin: 10px 0; 
   font-size: 1.1rem;
   color: #555;
 }
 
-/* Services Section */
+
 .services-section {
   padding: 40px 20px;
   text-align: center;
@@ -81,7 +81,7 @@
   color: #555;
 }
 
-/* Call to Action Section */
+
 .call-to-action {
   text-align: center;
   background-color: #27ae60;

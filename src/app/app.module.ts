@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AppRoutingModule } from './app-routing.module';  // Import AppRoutingModule
-import { RouterModule } from '@angular/router';  // Import RouterModule
+import { AppRoutingModule } from './app-routing.module'; 
+import { RouterModule } from '@angular/router';  
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -34,8 +34,8 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule,  // Ensure AppRoutingModule is included
-    RouterModule,      // Add RouterModule here
+    AppRoutingModule,  
+    RouterModule,      
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
