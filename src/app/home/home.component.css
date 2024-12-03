@@ -20,7 +20,11 @@
   text-align: center;
   color: white;
   z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+  padding: 20px;
+  border-radius: 10px;
 }
+
 
 .hero-text h1 {
   font-size: 3rem;
@@ -40,7 +44,7 @@
 
 .intro-section p {
   margin: 10px 0;
-  font-size: 1.1rem;
+  font-size: 25px;
   color: #555;
 }
 
@@ -50,11 +54,13 @@
   text-align: center;
   background-color: #f9f9f9;
   margin-top: 20px; /* Adds space above this section */
+  font-size: 25px;
 }
 
 .services-section h3 {
   color: #2c3e50;
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .service-list {
@@ -62,12 +68,15 @@
   margin-left: 20px;
   text-align: left;
   display: inline-block;
+  
+
 }
 
 .service-list li {
   margin: 5px 0;
   font-size: 1.1rem;
   color: #555;
+  font-size: 25px;
 }
 
 /* Solar Types Section */
@@ -117,6 +126,7 @@
 .solar-box p {
   font-size: 1rem;
   color: #555;
+  font-size: 25px;
 }
 
 /* Call to Action Section */
@@ -179,7 +189,7 @@
 
 .slider {
   display: flex;
-  animation: slide 200s linear infinite;
+  animation: slide 250s linear infinite;
 }
 
 .slider-box {
