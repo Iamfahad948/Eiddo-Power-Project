@@ -15,13 +15,12 @@ mat-toolbar.footer {
   }
   
   mat-toolbar.footer span {
-    font-size: 1.5rem; 
     margin-right: auto; 
   }
   
   mat-toolbar.footer button[mat-button] {
+    font-weight: bold;
     color: black;
-    font-size: 1rem; 
     margin-left: 15px; 
     text-transform: none;
   }

@@ -189,21 +189,14 @@
 
 .slider {
   display: flex;
-  animation: slide 250s linear infinite;
-}
-
-.slider-box {
-  width: 100%;
-  max-width: 300px;  /* Control box size */
-  padding: 10px;
-  box-sizing: border-box;
+  animation: slide 30s linear infinite;
 }
 
 .slider-image {
-  max-width: 500px;
-  max-height: 400px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   object-fit: cover;
-  border-radius: 10px;
   margin-right: 10px;
 }
 
@@ -212,19 +205,7 @@
   0% {
     transform: translateX(0);
   }
-  20% {
-    transform: translateX(-100%);
-  }
-  40% {
-    transform: translateX(-200%);
-  }
-  60% {
-    transform: translateX(-300%);
-  }
-  80% {
-    transform: translateX(-400%);
-  }
   100% {
-    transform: translateX(0);
+    transform: translateX(-100%);
   }
 }
