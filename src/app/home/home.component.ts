@@ -76,5 +76,6 @@ export class HomeComponent implements AfterViewInit {
         sliderElement.style.transition = 'transform 30s linear';
       }, 50); // A small delay before re-enabling transition
     }
+    
   }
 }

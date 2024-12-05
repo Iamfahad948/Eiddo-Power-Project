@@ -10,6 +10,7 @@ mat-toolbar.footer {
     margin-bottom: -10px;
   }
   
+  
   mat-toolbar.footer .spacer {
     flex: 1; 
   }
